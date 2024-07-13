@@ -42,7 +42,7 @@ func Tan(x float64) float64 {
 	return math.Tan(x)
 }
 
-// Asin вычисляет арккосинус числа x и возвращает результат
+// Asin вычисляет арксинус числа x и возвращает результат
 func Asin(x float64) float64 {
 	return math.Asin(x)
 }
@@ -101,9 +101,13 @@ func Hypot(x, y float64) float64 {
 func Pow10(x int) float64 {
 	return math.Pow10(x)
 }
+
+// Min возвращает наименьшее число из x и y
 func Min(x, y float64) float64 {
 	return math.Min(x, y)
 }
+
+// Max возвращает наибольшее число из x и y
 func Max(x, y float64) float64 {
 	return math.Max(x, y)
 }
