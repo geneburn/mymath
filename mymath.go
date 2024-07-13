@@ -111,3 +111,6 @@ func Min(x, y float64) float64 {
 func Max(x, y float64) float64 {
 	return math.Max(x, y) // new version
 }
+func Yn(n int, y, x float64) float64 {
+	return math.Yn(n, x) // new version
+}
