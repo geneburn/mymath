@@ -109,5 +109,5 @@ func Min(x, y float64) float64 {
 
 // Max возвращает наибольшее число из x и y
 func Max(x, y float64) float64 {
-	return math.Max(x, y)
+	return math.Max(x, y) // new version
 }
