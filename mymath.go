@@ -101,3 +101,9 @@ func Hypot(x, y float64) float64 {
 func Pow10(x int) float64 {
 	return math.Pow10(x)
 }
+func Min(x, y float64) float64 {
+	return math.Min(x, y)
+}
+func Max(x, y float64) float64 {
+	return math.Max(x, y)
+}
